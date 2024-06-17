@@ -733,7 +733,7 @@ input:checked+.slider:before {
     font-family: "retro", sans-serif;
     font-size: 0.9em;
     background: white;
-    padding: 0.3rem 3.4rem;
+    padding: 0.3rem 1rem;
     border: 3px solid black;
     margin-right: 2.6rem;
     box-shadow: 0 0 0 black;
