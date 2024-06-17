@@ -562,7 +562,7 @@ footer table {
 }
 
 .social {
-  text-align: right;
+  text-align: center;
   /*	margin-top: -3.7em;	*/
 }
 
@@ -574,9 +574,12 @@ footer table {
 }
 
 .social-mob img {
-  width: 1.8em;
-  height: 1.8em;
-  padding-right: 16px;
+  width: 5em;
+  height: 5em;
+}
+
+.social-mob a:not(:last-child) {
+  margin-right: 2em;
 }
 
 .social-mob a {
