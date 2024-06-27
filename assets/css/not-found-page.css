@@ -18,12 +18,10 @@ div.container4 {
 
 .block {
   position: absolute;
-  max-width: 900px;
-  margin: 0 auto 30px auto;
-  overflow: hidden;
+  left: 20vw;
+  right: 20vw;
   color: white;
   text-align: center;
-  line-height: 0em;
   vertical-align: middle;
   background: #ffffff96;
   padding: 20px 30px;
@@ -71,6 +69,12 @@ u {
 
   }
 
+  .block {
+    left: 5vw;
+    right: 5vw;
+    padding: 20px;
+  }
+
   .block h3 {
     font-size: 1.0em;
   }
@@ -80,7 +84,8 @@ u {
   }
 
   .btn {
-    font-size: 0.5em;
-    padding: 0.6rem 2.2rem;
+    display: block;
+    font-size: 24px;
+    margin: 0;
   }
 }
