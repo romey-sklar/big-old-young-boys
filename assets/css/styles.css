@@ -73,14 +73,12 @@ body {
 .btn {
   color: inherit;
   font-family: "retro", sans-serif;
-  font-size: 0.9em;
+  font-size: 20px;
   background: white;
-  padding: 0.3rem 3.4rem;
+  padding: 1rem 3.4rem;
   border: 3px solid black;
-  margin-right: 2.6rem;
   box-shadow: 0 0 0 black;
   transition: all 0.2s;
-  padding-top: 10px;
 }
 
 .btn:last-child {
@@ -107,7 +105,7 @@ a,
 /* Hero section */
 .hero {
   min-height: 750px;
-  background: url("../../assets/img/hero-min.gif") center center;
+  background: url("../../assets/img/bg_wide.png") center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -118,11 +116,12 @@ a,
 }
 
 .hero .down-arrow a {
+  width: 100%;
   color: #fff;
   font-size: 30px;
   position: absolute;
   bottom: 30px;
-  left: 50%;
+  left: 0;
   animation: pulsate 1.4s ease;
   animation-iteration-count: infinite;
   padding-top: 5px
@@ -135,11 +134,7 @@ a,
 }
 
 .hero-text {
-  position: absolute;
-  z-index: 10;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 500px;
   text-align: center;
 }
 
@@ -175,8 +170,10 @@ a,
   position: absolute;
   height: 100%;
   width: 100%;
-  top right bottom left: 0;
-  background: rgba(236, 175, 8, 0.2);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /* About Section */
@@ -185,7 +182,7 @@ a,
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 75px 5px;
+  padding: 25px 5px;
   padding-left: 200px;
   border-bottom: 1px solid #dcd9d9;
   font-family: 'retro1', sans-serif;
@@ -516,8 +513,7 @@ footer {
   font-size: 16px;
   font-weight: 300;
   z-index: 10;
-  height: 3em;
-  margin-top: 2em;
+  margin: 2em 0;
 }
 
 .copyright {
@@ -563,7 +559,6 @@ footer table {
 
 .social {
   text-align: center;
-  /*	margin-top: -3.7em;	*/
 }
 
 .social a {
@@ -571,6 +566,7 @@ footer table {
   font-size: 1.25em;
   padding: 10px;
   display: inline-block;
+  cursor: URL("../../assets/img/cursor/cursor-click.png"), auto;
 }
 
 .social-mob img {
@@ -585,6 +581,8 @@ footer table {
 .social-mob a {
   color: #FFFFFF;
   text-decoration: none;
+  display: inline-block;
+  cursor: URL("../../assets/img/cursor/cursor-click.png"), auto;
 }
 
 .social-mob img:hover {
@@ -734,9 +732,9 @@ input:checked+.slider:before {
   .btn {
     color: inherit;
     font-family: "retro", sans-serif;
-    font-size: 0.9em;
+    font-size: 18px;
     background: white;
-    padding: 0.3rem 1rem;
+    padding: 1rem 4rem;
     border: 3px solid black;
     margin-right: 2.6rem;
     box-shadow: 0 0 0 black;
@@ -752,7 +750,8 @@ input:checked+.slider:before {
   }
 
   .hero {
-    background: url("../../assets/img/hero-mob.jpg") center center;
+    background: url("../../assets/img/bg_wide.png") center center;
+    background-size: cover;
   }
 
   .hero-text h2 {

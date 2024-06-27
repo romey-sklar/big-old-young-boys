@@ -1,10 +1,11 @@
 body {
   background-color: #000;
-  background-image: url("../../assets/img/404/404.png");
+  background-image: url(../../assets/img/bg_wide.png);
   position: relative;
-  background-repeat:no-repeat;
-  background-size:100% 100vh;
+  background-repeat: repeat;
+  background-size: contain;
 }
+
 div.container4 {
   margin-left: auto;
   margin-right: auto;
@@ -14,57 +15,70 @@ div.container4 {
   margin-bottom: 4em;
   padding-left: 1em;
 }
+
 .block {
   position: absolute;
-	max-width: 900px;
-	margin: 0 auto 30px auto;
-	overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
   color: white;
   text-align: center;
   line-height: 0em;
   vertical-align: middle;
+  background: #ffffff96;
+  padding: 20px 30px;
+  border-radius: 20px;
 }
-.block h3{
+
+.block h3 {
   color: #cc3333;
   font-size: 1.6em;
 }
-.block p{
+
+.block p {
   font-size: 1em;
-  color: #fff;
+  color: black;
   line-height: 1em;
 }
-a, u {
-    text-decoration: none;
+
+a,
+u {
+  text-decoration: none;
 }
+
 .btn {
-  color:inherit;
+  color: inherit;
   font-family: "retro", sans-serif;
   font-size: 0.5em;
-  background-image: url("../../assets/img/404/btn_bg.png");
-  background-size:contain;
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  background-size: contain;
+  text-shadow: 1px 1px 0 black;
   padding: 0.6rem 2.2rem;
   border: 3px solid white;
   margin-right: 2.6rem;
   box-shadow: 0 0 0 black;
   transition: all 0.2s;
 }
+
 @media only screen and (orientation: Portrait) {
   body {
-    background-image: url("../../assets/img/404/404-mob.png");
+    background-image: url("../../assets/img/bg_upper_left.png");
   }
+
   div.container4 {
     font-size: 2.5em;
     margin-bottom: 4em;
     padding-left: 0em;
 
   }
-  .block h3{
+
+  .block h3 {
     font-size: 1.0em;
   }
-  .block p{
+
+  .block p {
     font-size: 0.8em;
   }
+
   .btn {
     font-size: 0.5em;
     padding: 0.6rem 2.2rem;
